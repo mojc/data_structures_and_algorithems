@@ -1,7 +1,6 @@
 import re
 
 
-# TODO: doesn't work with negative numbers
 # TODO: make it more classy
 def get_operators(algebraic_notation):
     operators = re.findall('\+|\-', algebraic_notation)
